@@ -1,0 +1,23 @@
+
+
+/*
+list-style-type: форма-вид маркеров
+list-style-type: none;    УБРАТ МАРКЕР
+*/
+
+table, td, th {
+   
+    border: 2px solid black;
+    padding: 5px;
+    
+}
+table {
+   
+    border-collapse: collapse;
+}
+
+
+
+th{
+    background-color: rgb(215, 215, 215);
+}
