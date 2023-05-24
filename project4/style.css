@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* content-box — значение по умолчанию (поведение, описанное выше). Ширина и высота элемента определяется только свойствами width и height . border-box — в данном случае браузер включает 
+    отступы padding и рамку border в общую ширину/высоту элемента*/
+}
+
+header {
+    background-color: rgb(228, 244, 248);
+    padding: 20px;
+
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+
+    /* height: 100vh;*/
+    /*  align-items: flex-end;*/
+    /* align-items: center;/*VERTIKAL CENTER*/
+
+
+}
+
+.item {
+
+    width: calc(50% - 20px);
+    /* -margin 20 px ( 100/3 - 20px) */
+    height: 250px;
+    /*calc(100vw / 3);*/
+
+    background-color: rgb(138, 217, 59);
+    margin: 10px;
+    /* отсуп со всех сторон */
+
+}
+.item-1{
+    background-image: url(./img2/11.jpeg);
+}
+.item-2{
+    background-image: url(./img2/22.jpeg);
+}
+.item-3{
+    background-image: url(./img2/33.jpeg);
+}
+.item-4{
+    background-image: url(./img2/44.jpeg);
+}
+.item-5{
+    background-image: url(./img2/55.jpeg);
+}
+.item-6{
+    background-image: url(./img2/66.jpeg);
+}.item-7{
+    background-image: url(./img2/77.jpeg);
+}
+.item-8{
+    background-image: url(./img2/88.jpeg);
+}
+
+
+/*
+
+100/4= 25%
+100/3 = 33% (+display: flex)
+
+
+1vh view hei
+100vh vosota raboch brauzera
+display flex - позиыионироват елементи по  или гориыонтали
+селекторе (по умолчанийу в одну строку)
+1. по классу - .className
+2.по тегу - tagMane, h 1
+*/
