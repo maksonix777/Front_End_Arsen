@@ -8,3 +8,5 @@ https://maksonix777.github.io/Front_End_Arsen/project4/
 
 https://maksonix777.github.io/Front_End_Arsen/24-05/
 
+https://maksonix777.github.io/Front_End_Arsen/CubesRotate/
+
