@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+section {
+width: 300px;
+height: 300px;
+border: 1px solid red;
+/*Position in the center of screen*/
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+
+}
+.cube {
+    width: 200px;
+    height: 200px;
+}
+
+.cube_red {
+    position: absolute;
+    background-color: red;
+    
+}
+
+.cube-green {
+
+    position: absolute;
+    background-color: green;
+    margin: 50px  50px;
+}
+
+.cube-green:hover {
+    width: 300px;
+    height: 300px;
+
+    transform: rotate(-45deg);
+    transition-duration:5s;
+    
+   
+}
+
+.cube-blue {
+    position: absolute;
+    background-color: blue;
+    margin: 100px  100px;
+    z-index: -1;
+}
