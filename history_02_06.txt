@@ -1,0 +1,24 @@
+   0 cd /
+   1 ls
+   2 tree /opt
+   3 mkdir /opt/280323_morning
+   4 ls
+   5  tree /opt
+   6 cd /opt/280323_morning
+   7 mkdir /Maria_K
+   8 ls
+   9 tree /opt
+  10 history > history_05_24.txt
+  11 export_history_05_24.txt
+  12 export hisoty_05_24.txt
+  13 export_history_05_24.txt
+  14 tre /opt
+  15 tree /opt
+  16 rm -rf /opt/history_05_24.txt
+  17 ls
+  18 tree /opt
+  19 rm -rf /opt/280323_morning/history_05_24.txt
+  20 tree /opt/
+  21 mkdir /opt/280323_morning/Maria_K
+  22 tree /opt/
+  23 history > history_02_06.txt
