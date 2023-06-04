@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор скидки</title>
+</head>
+<body>
+    <section>
+        <p>Цена:</p>
+        <input type="text" id="priceInput">
+        <p>Скидка в процентах:</p>
+        <input type="text" id="discountInput" placeholder="%"><br><br>
+        <button onclick="calcDiscountedPrice()">Подсчет</button>
+        <p id="result"></p>
+    </section>
+
+    <script>
+        function calcDiscountedPrice() {
+            var price = parseFloat(document.getElementById("priceInput").value);
+            var discount = parseFloat(document.getElementById("discountInput").value);
+
+            var discountedPrice = price - (price * discount / 100);
+
+            document.getElementById("result").innerHTML = "Цена со скидкой: $" + discountedPrice.toFixed(2);
+        }
+    </script>
+</body>
+</html>
+<!-- Метод    ** toFixed(2) **   в JavaScript используется для форматирования числа с заданным количеством десятичных знаков.
+В контексте предоставленного мной кода, toFixed(2) применяется для форматирования переменной discountedPrice с двумя знаками после запятой перед ее отображением пользователю.
+Например, если расчитанное значение discountedPrice равно 49.99, toFixed(2) округлит его до 49.99 и убедится, что оно имеет ровно два десятичных знака.
+
+  ** parseFloat **   - это встроенная функция в JavaScript, которая преобразует строку в число с плавающей запятой (тип данных "float").
+Функция parseFloat пытается извлечь числовое значение из переданной строки. Она анализирует строку, игнорирует все непробельные символы до первого числа, затем считывает числовую часть, включая десятичную точку, и останавливается при обнаружении неподходящего символа.
+Вот пример использования parseFloat:
+-->
