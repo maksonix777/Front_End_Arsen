@@ -5,55 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <script> 
+    var op;
+
+    function func() {
+        var result;
+        var num1 = Number(document.getElementById("myPrice").value);
+        var num2 = Number(document.getElementById("myDiscount").value);
+      
+        swich (op) {
+            result = 100 - (order_paid * 100 / order_cost);
+            break;
+            }
+      document.getElementById("result").innerHTML = result;
+    }
+    
+    </script>
 </head>
 <body>
-    <h2>
-        Курсы валют
-    </h2>
-    <ul>
-        <li>€(EUR) Евро (Страны Еврозоны)</li>
-        <li>$(USD) Доллар(США)</li>
-        <li>£(GBP) Фунт стерлингов(Великобритания)</li>
-        <li>¥(JPY) Иена(Япония)</li>
-        <li>₾(GEL)Лари(Грузия)</li>
-    </ul>
-    <h2>Курс на сегодня</h2>
-    <table class="laptop-table">
-        <tr>
-            <th>Флаг</th>
-            <th>Валута</th>
-            <th>Курс </th>
-           
-        </tr>
-        <tr>
-           
-            <td><img src="./images/usa.png" height="25px" alt="">
-                <img src="./images/ue.jpeg" alt=""height="25px"></td>
-            <td>$ (USD) / €(EUR)</td>
-            <td>0.93€</td>
-        </tr>
-        <tr>
-            <td><img src="./images/uk.png" height="23px" alt="">
-                <img src="./images/ue.jpeg" alt=""height="25px"></td>
-            <td>£(GBP) / €(EUR)</td>
-            <td>1,17€</td>
-        </tr>
-        <tr>
-            
-            <td><img src="./images/jp.png" height="28px" width="45px" alt="">
-                <img src="./images/ue.jpeg" alt=""height="25px"></td>
-            <td>¥ (JPY) / €(EUR)</td>
-            <td>0,0073€</td>
-        </tr>
-        <tr>
-            
-            <td><img src="./images/lat.jpeg" height="28px" width="45px" alt="">
-                <img src="./images/ue.jpeg" alt=""height="25px"></td>
-            <td>₾(GEL) / €(EUR)</td>
-            <td>0,32€</td>
-            
-        </tr>
-    </table>
+    <section>
+        <p>Enter product price:</p>
+        <input type="text" id="myPrice">
+        <p>Enter dicount:</p>
+        <input type="text" id="myDicount"><br><br>
+        <button onclick="handleInput()">Submit</button>
+        <p id="result"></p>
+    </section>
 </body>
 </html>
