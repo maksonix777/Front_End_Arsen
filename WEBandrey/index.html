@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        * {
+
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .wrapper {
+            width: 70%;
+            margin: 30px auto;
+
+            justify-content: space-between;
+            margin-top: 50px;
+
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+        .link_btn {
+            align-items: center;
+            display: flex;
+        }
+
+        .navi_link a {
+            text-decoration: none;
+            color: black;
+            padding: 12px;
+
+         }
+        .link_btn a:hover{
+            color: #55ad99;
+            font-size: 15px;
+            transform: scale(2s);
+
+          }
+
+        .navi_link {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            margin-right: 40px;
+
+
+
+        }
+
+        .btn {
+            cursor: pointer;
+            color: white;
+            border: none;
+            padding: 16px 26px;
+            background-color: #55ad99;
+            border-radius: 50px 50px;
+        }
+
+        .pic {
+            width: 50%;
+        }
+
+        h1 {
+            margin-top: 150px;
+            font-family: Arial, Helvetica, sans-serif;
+             width: 700px;
+            line-height: 120px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 120px;
+        }
+
+       
+
+        p {
+            color: gray;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            margin-top: 60px;
+        } 
+
+        .logo6 {
+            width: 12%;
+        }
+
+        .logos img {
+
+            margin: 8px;
+            width: 3%;
+        }
+
+        .logos {
+            margin-top: 90px;
+        }
+
+        #back_img {
+            position: absolute;
+            width: 1200px;
+            aspect-ratio: 1/1;
+            margin-left: 570px;
+            background: url(./img/Background\ \(1\).png) no-repeat;
+            background-size: 100%;
+            z-index: -1;
+        }
+        .black_buttons{
+            margin-top: 150px;
+        }
+        .special, .clock, .phone{
+        padding: 50px;
+        border-radius: 40px;
+        border: 1px solid rgb(213, 213, 213);
+        width: 550px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        }
+        h3{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .footer_all{
+
+            display: flex;
+            margin-top: 30px;
+            justify-content: space-between;
+        }
+        .black_buttons{
+            width: 70%;
+        }
+    </style>
+    <section>
+        <div class="wrapper">
+            <header>
+                <div> <img class="pic" src="./img/logo1.png"></div>
+                <div class="link_btn">
+                    <div class="navi_link">
+                        <a href=".">Home</a>
+                        <a href=".">Feature</a>
+                        <a href=".">Screen</a>
+                        <a href=".">Pricing</a>
+                        <a href=".">Team</a>
+                        <a href=".">Questions</a>
+                    </div>
+                    <div>
+                        <a href="https://www.google.com/"> <button class="btn">Get Started</button></a>
+                    </div>
+                </div>
+
+
+            </header>
+            <div id="back_img"> </div>
+            <h1>Refueling a car at your addreass</h1>
+            <p>Delivery service for all types of fuel <br> for your car</p>
+            <p class="black_buttons"> <a href="https://www.google.com/"><img class="logo6" src="./img/logo_black1.png" alt=""></a>
+                <a href="https://www.google.com/"><img class="logo6" src="./img/logo_black2.png" alt=""></a>
+            </p>
+            <div class="logos">
+                <a href="https://www.google.com/"><img src="./img/Fb.png"></a> 
+                <a href="https://www.google.com/"><img src="./img/insta (1).png"></a>
+                <img src="./img/Tb (1).png" alt="">
+            </div>
+    
+            <footer>
+                <div class="footer_all">
+                    <div class="special">
+                        <img src="./img/clock.png" alt="">
+                        <h3>Spesial order</h3>
+                        <p class="footer_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere totam fuga incidunt?</p>
+                    </div>
+                    <div class="clock">
+                        <img src="./img/gps.png" alt="">
+                        <h3>Spesial order</h3>
+                        <p class="footer_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere totam fuga incidunt?</p>
+                    </div>
+                    <div class="phone">
+                        <img src="./img/phone (1).png" alt="">
+                        <h3>Spesial order</h3>
+                        <p class="footer_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere totam fuga incidunt?</p>
+                    </div>
+
+                </div>
+                
+                
+
+            </footer>
+            </div>
+           
+
+        </div>
+        
+
+
+      
+
+    </section>
+</body>
+
+</html>
