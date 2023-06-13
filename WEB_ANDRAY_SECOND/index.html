@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+          /*  border:1px solid green; */
+        }
+
+        .wrapper {
+            width: 70%;
+            margin: 30px auto;
+            margin-top: 50px;
+
+        }
+
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+
+        img {
+            height: 40px;
+        }
+
+        .menu {
+
+            display: flex;
+            justify-content: flex-end;
+            gap: 20px;
+            align-items: center;
+           
+        }
+
+         .get-started-button {
+            background-color: #55ad99;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 13px 26px;
+            border-radius: 22px;
+            margin-left: 30px;
+            transition: background-color 0.7s ease;
+
+        }
+        .get-started-button:hover{
+            background-color: #6de6b0;
+        }
+
+        .menu-button {
+            cursor: pointer;
+            font-size: 14px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(46,46,49);
+            font-weight: bold;
+            transition: color 0.5s ease;
+            
+        }
+        .menu-button:hover{
+        
+         color: #6de6b0;
+        }
+
+        h1 {
+            margin-top: 200px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 100px;
+            line-height: 0.96;
+
+        }
+
+        .middle {
+            display: flex;
+        }
+
+        .back_img {
+            margin-top: 40px;
+            max-height: 100%;
+            max-width: 100%;
+           
+            position: absolute;
+            width: 1200px;
+            aspect-ratio: 1/1;
+            margin-left: 570px;
+            background: url(./img/Background\ \(1\).png) no-repeat;
+            background-size: 90%;
+            z-index: -1;
+
+        }
+        body{
+            background: rgb(233,233,233);
+            background: linear-gradient(13deg, rgb(242, 242, 242) 3%, rgb(241, 240, 240) 9%, rgba(255,255,255,1) 45%);
+            border: 40px solid rgb(239,239,239);
+            height: 132vh;
+        }
+        .black_btn {
+        margin-top: 50px;
+         }
+        .middle_txt{
+            margin-top: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: rgb(164,164,164);
+        }
+        .play{
+            margin-right: 10px;
+            margin-top: 80px;
+            width: 11%;
+            height:auto;
+           
+        }
+        .social_media{
+            display: flex;
+            margin-top: 100px;
+           gap: 10px;
+         }
+      .three_blocks{
+        margin-top: 70px;
+        display: flex;
+        gap: 40px;
+      }
+      h3{
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 20px;
+        padding-bottom: 15px;
+      }
+      .footer_all_icons{
+        width: 75px;
+        height: 75px;
+
+    }
+    p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(164,164,164);
+    }
+    .block_1{
+     background: white;
+     width:500px;
+     justify-content: center;
+   
+    padding: 80px;
+    border-radius: 30px;
+    border: 1px solid rgb(238, 238, 238);
+    transition: border 2s ease;
+    }
+    .block_1:hover{
+     border: 1px solid white;
+
+    }
+    .social_media img {
+        border-radius: 60px;
+    box-shadow: 2px 2px 9px rgb(223, 223, 223);
+    transition: transform  ease 2s ;
+    }
+    .social_media img:hover {
+    transform: rotate(45deg);
+
+    }
+    </style>
+</head>
+
+<body>
+    <section class="wrapper">
+        <header class="header">
+            <div class="logo"> <img src="./img/logo1.png" alt=""></div>
+            <nav class="menu">
+                <a class="menu-button">Home</a>
+                <a class="menu-button">Feature</a>
+                <a class="menu-button">Screen</a>
+                <a class="menu-button">Pricing</a>
+                <a class="menu-button">Team</a>
+                <a class="menu-button">Question</a>
+                <a class="get-started-button">Get Started</a>
+            </nav>
+
+        </header>
+        <div class="middle">
+            <h1>Refueling a <br> car at your <br> address</h1>
+            <div class="back_img"> <img alt=""></div>
+         </div>
+         <p class="middle_txt">Delivery service for all kinde of fuel for <br>you car</p>
+         <div class="black_btn_main">
+            <a class="black_btn" href="https://google.com" target="_blank"> <img class="play"src="./img/logo_black1.png"alt="google play"></a>
+            <a class="black_btn" href="https://ya.ru" target="_blank"><img class="play"src="./img/logo_black2.png"alt="apple shop"></a>
+         </div>
+         <div class="social_media">
+            <a href=""><img  src="./img/Fb.png" alt=""></a>
+            <a href=""><img src="./img/insta (1).png" alt=""></a>
+            <a href=""><img src="./img/Tb (1).png" alt=""></a>
+         </div>
+         <footer>
+            <div class="three_blocks">
+                <div class="block_1">
+                    <img class="footer_all_icons" src="./img/clock.png" alt="">
+                    <h3>Specified order</h3>
+                    <p> Refueling your car at the time and <br> date you specify</p>
+                </div>
+                <div class="block_1">
+                    <img class="footer_all_icons" src="./img/gps.png" alt="">
+                    <h3>Specified order</h3>
+                    <p> Refueling your car at the time and <br> date you specify</p>
+                </div>
+                <div class="block_1">
+                    <img class="footer_all_icons" src="./img/phone (1).png" alt="">
+                    <h3>Specified order</h3>
+                    <p> Refueling your car at the time and <br> date you specify</p>
+                </div>
+            </div>
+         </footer>
+         
+         
+
+    </section>
+</body>
+
+</html>
