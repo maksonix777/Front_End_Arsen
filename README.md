@@ -13,3 +13,5 @@ https://maksonix777.github.io/Front_End_Arsen/CubesRotate/
 https://maksonix777.github.io/Front_End_Arsen/script.js
 
 https://maksonix777.github.io/Front_End_Arsen/WEB_ANDRAY_SECOND/
+
+https://maksonix777.github.io/Front_End_Arsen/script14_06.js
