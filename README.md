@@ -15,3 +15,7 @@ https://maksonix777.github.io/Front_End_Arsen/script.js
 https://maksonix777.github.io/Front_End_Arsen/WEB_ANDRAY_SECOND/
 
 https://maksonix777.github.io/Front_End_Arsen/script14_06.js
+
+
+
+https://maksonix777.github.io/Front_End_Arsen/Project24_BUTTON_JS/index2.html
