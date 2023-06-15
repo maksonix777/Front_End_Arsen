@@ -5,8 +5,119 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+
+    <style>
+
+     .user_card {
+     padding: 10px;
+     margin-bottom: 10px;
+   }
+
+ .user_card p {
+  margin: 0;
+  width: 20%;
+  padding: 40px;
+  background-color: bisque;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+
+}
+
+  
+
+    </style>
+
+
 </head>
+
 <body>
-    <script src="./script14_06.js"></script>
+   <div class="users_container"></div>
+    <div class="strings_container"></div>
+
+<script> 
+
+const users = [
+    { name: "John", surname: "Doe", age: 25 },
+    { name: "Jane", surname: "Smith", age: 18 },
+    { name: "Bob", surname: "Johnson", age: 35 },
+    { name: "Alice", surname: "Williams", age: 16 },
+    { name: "Elena", surname: "Ivanova", age: 17 }
+];
+
+
+for (let i = 0; i < users.length; i++) {
+    const user = users[i];
+
+    const userDiv = document.createElement("div"); // Создаем элемент <div>
+
+    const userText = document.createTextNode(`Name: ${user.name}, Surname: ${user.surname}, Age: ${user.age}`);
+    // Создаем текстовый узел с данными пользователя
+
+    userDiv.appendChild(userText); // Добавляем текстовый узел в элемент <div>
+
+    document.body.appendChild(userDiv); // Добавляем блок пользователя в тело документа
+}
+
+
+
+
+const usersContainer = document.querySelector(".users_container");
+
+for (let i = 0; i < users.length; i++) {
+    const user = users[i];
+
+    if (user.age >= 18) {
+        const card = document.createElement("div");
+        card.classList.add("user_card");
+
+        const name = document.createElement("p");
+        name.textContent = `Name: ${user.name} ${user.surname}`;
+
+        const age = document.createElement("p");
+        age.textContent = `Age: ${user.age}`;
+
+        card.appendChild(name);
+        card.appendChild(age);
+
+        usersContainer.appendChild(card);
+    }
+}
+/* 1. Написать цикл, который создает множество параграфов 
+     с каждым десятым числом в промежутке от 100 до 50
+     (т.е. 100, 90, 80, 70, 60, 50). Добавить созданные 
+      параграфы в div с классом numbers. 
+
+   const numDiv = document.querySelector(".numbers");
+
+  for (let i = 100; i >= 50; i -= 10) {
+  const paragraph = document.createElement("p");
+  paragraph.textContent = i;
+  numDiv.appendChild(paragraph);
+  } */
+//------------------------------------------------------------
+
+/*2. Написать цикл, который проходится по массиву строк, 
+     для каждой строки создает параграф и добавляет его в div 
+     с классом strings_container. Строки взять произвольные.  
+  
+   const fruits = ["apple", "banana", "orange", "grape", "watermelon"];
+   const stringsContainer = document.querySelector(".strings_container");
+
+
+ for (let i = 0; i < fruits.length; i++) {
+  const paragraph = document.createElement("p");
+  paragraph.textContent = fruits[i];
+  stringsContainer.appendChild(paragraph);}  */
+
+//--------------------------------------------------------------
+/*3. Написать цикл, который проходится по массиву с объектами 
+- у объектов свойства first_name, last_name и  age 
+(данные взять произвольные) - и создает карточки только для 
+совершеннолетних пользователей. Карточка должна содержать информацию об имени, 
+фамилии и возрасте пользователя. Добавить все карточки в div с классом users_container. */
+
+
+</script>
 </body>
 </html>
