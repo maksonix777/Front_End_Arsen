@@ -51,26 +51,38 @@ calc(num1, num2) */
     сумму четных чисел и нечетных чисел от n до m. Суммы выведите в консоль 
     (в начале сумму четных чисел, а затем сумму нечетных).
   */
-  /* const n = +prompt("Enter a number1")
-  const m =+prompt("Enter a number2")
-    function calculateEvenOddSum(n, m) {
-        var evenSum = 0;
-        var oddSum = 0;
-      
-        for (var i = n; i <= m; i++) {
-          if (i % 2 === 0) {
-            evenSum += i;
-          } else {
-            oddSum += i;
-          }
+  /* function getTwoNumber(n, m) {
+            let even = 0;
+            let odd = 0;
+
+            if (n < m) {
+                for (let i = n; i <= m; i++) {
+                    if (i % 2 == 0) {
+                        even += i;
+                    }
+                    if (i % 2 != 0) {
+                        odd += i;
+                    }
+                }
+                console.log(even);
+                console.log(odd);
+                return
+            }
+            if (n > m) {
+                for (let i = m; i <= n; i++) {
+                    if (i % 2 == 0) {
+                        even += i;
+                    }
+                    if (i % 2 != 0) {
+                        odd += i;
+                    }
+                }
+                console.log(even);
+                console.log(odd);
+                return
+            }
         }
-      
-        console.log("Сумма четных чисел:", evenSum);
-        console.log("Сумма нечетных чисел:", oddSum);
-      }
-      
-      
-      calculateEvenOddSum(n, m);    */
+        getTwoNumber(+prompt(),+prompt())   */
 
   /*    5. Напишите функцию, которая принимает в качестве аргументов массив строк, а возвращает 
     первый самый длинный элемент массива. Если входной массив пуст, функция возвращает null.
