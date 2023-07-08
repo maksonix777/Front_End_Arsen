@@ -24,9 +24,10 @@ https://maksonix777.github.io/Front_End_Arsen/Project24_BUTTON_JS/index2.html
 https://maksonix777.github.io/Front_End_Arsen/JSBUTTONS.html
 
 https://maksonix777.github.io/Front_End_Arsen/script14_06.js
-.
-.
-.
-//http://My Web devepoped pages:https://onlinefood24.netlify.app/
+
+
+My Web devepoped pages: 
+
+https://onlinefood24.netlify.app/
 https://turistduess.netlify.app/
 
