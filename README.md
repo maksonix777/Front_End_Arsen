@@ -27,6 +27,6 @@ https://maksonix777.github.io/Front_End_Arsen/script14_06.js
 .
 .
 .
-// My Web devepoped pages:https://onlinefood24.netlify.app/
+//http://My Web devepoped pages:https://onlinefood24.netlify.app/
 https://turistduess.netlify.app/
 
