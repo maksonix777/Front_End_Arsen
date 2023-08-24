@@ -26,6 +26,8 @@ https://maksonix777.github.io/Front_End_Arsen/JSBUTTONS.html
 https://maksonix777.github.io/Front_End_Arsen/script14_06.js
 
 
+https://maksonix777.github.io/Front_End_Arsen/gridHW2/
+
 My Web devepoped pages: 
 
 https://onlinefood24.netlify.app/
