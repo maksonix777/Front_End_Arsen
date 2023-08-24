@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Inter&family=Open+Sans&display=swap"
+        rel="stylesheet">
+
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'ABeeZee';
+        font-style: italic;
+        font-weight: 400;
+    }
+
+    .logo_img {
+        margin-top: 17px;
+    }
+
+    .img_elem_2 {
+
+        margin-bottom: 50px;
+    }
+
+    .container {
+        margin-right: auto;
+        margin-left: auto;
+        display: grid;
+        max-width: 1440px;
+        border: 1px solid black;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(5);
+    }
+
+    header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .elem_1 {
+        background-color: #F4F9E2;
+        grid-column: 1 / 4;
+
+    }
+
+    .elem_2 {
+        background-color: #62D0DF;
+        grid-column: 1 / 4;
+    }
+
+    .elem_3 {
+        background-color: #fff;
+        grid-column: 1 / 4;
+    }
+
+    .elem_4 {
+
+        background-color: #22356F;
+        /* grid-column: 1 / 2;
+       grid-row: 4 / 2; */
+
+    }
+
+    .elem_5 {
+        background-color: #0052C1;
+    }
+
+    .elem_6 {
+        background-color: #76B58B;
+    }
+
+    .elem_7 {
+        grid-column: 1 / 4;
+        background-color: #fff;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    button {
+        font-size: 14px;
+        font-style: italic;
+        color: #fff;
+        background-color: #F9B640;
+
+        border-radius: 50px;
+        width: 150px;
+        height: 50px;
+        border: none;
+    }
+
+    nav {
+        width: 20%;
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    a:hover {
+        cursor: pointer;
+        text-decoration: underline;
+        text-underline-offset: 15px;
+        color: #22356F;
+
+    }
+
+    .container_elem_1 {
+        display: flex;
+        align-items: center;
+    }
+
+    .container_elem_2 {
+        display: flex;
+        align-items: center;
+    }
+
+    .text_elem_1 {
+        color: #22356F;
+        margin-left: 180px;
+        margin-right: 180px;
+        text-align: justify;
+    }
+
+    .container_elem_3 {
+
+        margin: 150px;
+        align-items: center;
+
+    }
+
+    .text_elem_4 {}
+
+    h1 {
+        font-family: 'ABeeZee';
+        font-size: 48px;
+        font-style: italic;
+        margin-bottom: 45px;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 112.29%;
+        /* 53.899px */
+        letter-spacing: -1.68px;
+    }
+
+    .text1 {
+        color: #22356F;
+        font-family: ABeeZee;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 177.3%;
+        /* 42.552px */
+    }
+
+    .img_elem_1 {
+        width: 543px;
+        height: 533px;
+    }
+
+    .text2 {
+        margin: 30px;
+
+    }
+
+
+
+    .img_elem_1 {
+        width: 543px;
+        height: 533px;
+
+        /* 35.46px */
+
+    }
+
+    .text_elem_1 {
+        color: #22356F;
+        font-family: ABeeZee;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 177.3%;
+        /* 42.552px */
+    }
+
+    .text_elem_2 {
+        margin-left: 130px;
+        margin-right: 100px;
+        color: #FFF;
+        text-align: justify;
+        font-family: ABeeZee;
+        font-size: 24px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 147.75%;
+        /* 35.46px */
+    }
+
+    .text_elem_3 {
+        margin: 200px;
+        font-size: 24px;
+        color: #22356F;
+    }
+.container_elem_4{
+    margin-bottom: 270px;
+}
+    .container_elem_4>p {
+        font-size: 32px;
+        color: white;
+        margin-top: 60px;
+        margin-left: 70px;
+     
+
+    }
+
+    .container_elem_5>p {
+        font-size: 32px;
+        color: white;
+      
+
+        margin-top: 60px;
+        margin-left: 70px;
+
+    }
+
+    .container_elem_6>p {
+        font-size: 32px;
+        color: white;
+
+        margin-top: 60px;
+        margin-left: 70px;
+
+    }
+
+    .text_elem_7>p {
+        color: #22356F;
+        font-family: ABeeZee;
+        font-size: 36px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 147.75%;
+        /* 53.19px */
+        letter-spacing: -0.36px;
+    }
+    .empty{
+      color: #22356F;
+        margin-bottom: 70px;
+    }
+
+    .container_elem_7 {
+        display: flex;
+
+    }
+
+    .text_elem_7 {
+        margin: 250px 90px 100px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="block elem_1">
+            <header>
+                <img class="logo_img" src="./img/logo copy 1.png" alt="">
+                <nav>
+                    <a href="">О нас</a>
+
+                    <a href="">Услуги</a>
+                    <a href="">Аренда</a>
+                </nav>
+                <button>Связаться</button>
+            </header>
+            <div class="container_elem_1">
+                <div class="text_elem_1">
+                    <h1>Веломастерская “Велозар”</h1>
+                    <p>Мы, мастера веломастерской «Велозар», как раз те самые счастливые люди, которые
+                        смогли превратить
+                        свое увлечение и хобби в профессию. Мы сами любим кататься и хотим чтобы Ваш двухколесный друг
+                        приносил Вам только радость и удовольствие от езды.</p>
+                </div>
+                <img class="img_elem_2" src="./img/din 1.png"></img>
+            </div>
+
+
+        </div>
+        <div class="block elem_2">
+            <div class="container_elem_2">
+                <div class="text_elem_2">
+                    <h2>Что мы предлагаем</h2>
+                    <p>В нашей мастерской можно выполнить комплексное техническое обслуживание велосипеда,
+                        ремонт и настройку
+                        всех его узлов, шиномонтажные работы. Вовремя проведенное ТО велосипеда помогает избежать многих
+                        проблем
+                        и дорогого ремонта. Все работы выполняем качественно и с душой.</p>
+                </div>
+                <img src="./img/img_1.png" alt="">
+            </div>
+
+
+        </div>
+        <div class="block elem_3">
+            <div class="container_elem_3">
+                <div class="text_elem_3">
+                    <p>Приехав к нам однажды, многие наши клиенты становятся постоянными, а часть из них даже друзьями.
+                    </p><br>
+                    <p>А также в нашей мастерской можно отремонтировать электросамокат и электровелосипед.</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="block elem_4">
+            <div class="container_elem_4">
+                <p>_________________</p>
+                <p>Годовое ТО</p>
+              
+            </div>
+        </div>
+        <div class="block elem_5">
+            <div class="container_elem_5">
+                <p>_________________</p>
+                <p>Выравнивание <br> колес</p>
+            </div>
+        </div>
+        <div class="block elem_6">
+            <div class="container_elem_6">
+                <p>_________________</p>
+                <p>Настройка <br>переключателей</p>
+            </div>
+        </div>
+        <div class="block elem_7">
+            <div class="container_elem_7">
+                <img src="./img/img_2.png" alt="">
+                <div class="text_elem_7">
+                    <p>Прокат велосипедов</p> <br>
+                    <p>У нас вы можете взять на прокат хорошо обслуженные и настроенные велосипеды. Как раз мы находимся
+                        в прекрасном парке!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
