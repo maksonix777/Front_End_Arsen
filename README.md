@@ -28,10 +28,14 @@ https://maksonix777.github.io/Front_End_Arsen/script14_06.js
 
 https://maksonix777.github.io/Front_End_Arsen/gridHW2/
 
+https://maksonix777.github.io/Front_End_Arsen/codewars_1.js
+
 My Web devepoped pages: 
 
 https://onlinefood24.netlify.app/
 https://turistduess.netlify.app/
 
 https://lovenglish.netlify.app/
+
+
 
