@@ -1,0 +1,23 @@
+let phones = [ 
+  '4000 0012 0056 9499', 
+  '4000 0013 5456 7379', 
+  '4000 0014 1456 9869', 
+  '4000 0015 3466 7859', 
+  '4000 0016 3556 6899', 
+  '4000 0017 4456 4699'
+  ]
+
+// let PartOne = [];
+// let ReadyNumbers = [];
+// for (let i = 0; i < phones.length; i++) {
+//       let  PartOne = phones[i].split(" ")
+//       let  FormatedNum = PartOne[0] + "*****" + PartOne[3]
+//       ReadyNumbers.push(FormatedNum)
+//     }
+    
+//   console.log(ReadyNumbers)
+
+let ReadyNum = phones.map(phones =>
+        phones.split(" ")[0] + "*****" + phones.split(" ")[3])
+
+        console.log(ReadyNum)
