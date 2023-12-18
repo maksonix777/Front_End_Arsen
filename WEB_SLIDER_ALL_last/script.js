@@ -131,6 +131,25 @@ window.onresize = (e) => {
         }
     }
 }
+/* Display user Data */
+document.addEventListener('DOMContentLoaded', function() {
+  const form = document.querySelector('.registration-form');
+
+  form.addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    // Collect form data
+    const formData = new FormData(form);
+
+    // Convert FormData entries to array and then log to console
+    const entriesArray = Array.from(formData.entries());
+    const dataObject = Object.fromEntries(entriesArray);
+
+    // Display the data in console
+    console.log(dataObject);
+  });
+});
+
 
 
 

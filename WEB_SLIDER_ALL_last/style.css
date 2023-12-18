@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 * {
+  
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
+ /* border: 1px solid red; */
 }
+
 .container {
   height: 670px;
   background-image: url(./img/background.png);
@@ -46,6 +49,7 @@
 }
 
 .controls {
+ 
   display: flex;
   height: 40px;
   margin-top: 30px;
@@ -107,7 +111,7 @@
   max-width: 1110px;
   min-width: 414px;
   position: relative;
-  margin: auto;
+  margin: auto ;
 }
 /* Services-----------------------------------------------------------*/
 .services_title  h2{
@@ -233,18 +237,25 @@
 
 /*--------------------------Clients--------------------------------------------*/
 .clients {
+ 
   padding-top: 100px;
   background-color: rgb(223, 223, 223);
-  height: 550px;
+  height: 630px;
   margin: auto;
   position: relative;
 }
 .clients_txt {
   height: 110px;
   margin-block:50px ;
+  font-size: 24px;
+ 
+  
 }
 .clients_txt p {
   margin-bottom: 30px;
+  font-size: 24px;
+  color: rgba(189, 189, 189, 1);
+  font-weight: 600;
 }
 .clients_txt h2 {
   font-family: 'Merriweather',sans-serif;
@@ -303,8 +314,8 @@
   color: rgba(255, 255, 255, 0.741);
 }
 .controls2 span {
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   background-color: rgba(0, 95, 163, 1);
 }
 .controls2 span:hover {
@@ -340,6 +351,7 @@
   align-items: center;
 }
 .controls3 {
+  margin-top: 50px;
   height: 85px;
   position: relative;
 }
@@ -374,8 +386,8 @@
   color: rgba(255, 255, 255, 0.741);
 }
 .controls3 span {
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   background-color: rgba(0, 95, 163, 1);
 }
 .controls3 span:hover {
@@ -440,7 +452,7 @@ html {
 }
 nav {
   display: flex;
-  width: 1116px;
+ width: 1110px;
   justify-content: space-between;
   align-items: center;
 }
@@ -512,22 +524,24 @@ header {
     margin-top: 130px;
   }
   /*Footer-----------------------*/
+
   footer {
     line-height: 138%;
-    display: flex;
-    margin-top: 380px;
-    color: rgba(255, 255, 255, 0.498);
+    /* display: flex; */
+    margin-top: 180px;
+    color: rgba(255, 255, 255 );
     gap: 50px;
   }
-  .footer_bg{
-    margin-top: -40px;
-    width: 100vw;
+  .contacts_footer{
+  
+    /* width: 100vw; <<<<<<<<< */
     height: 800px;
     background-image: url(./img/footer_bg.png);
-    position: absolute;
+   
     background-size: cover;
-    z-index: -3;
+    /* z-index: -3; */
   }
+
   .footer_title{
     font-size: 48px;
     font-family: "Merriweather",serif ;
@@ -537,17 +551,16 @@ header {
   }
   .contact_ditales{
     display: flex;
-    gap: 180px;
+    
+    gap: 150px;
   }
-  .phone{
-    display: flex;
-    gap: 10px;
-  }
-  .email{
-    display: flex;
-    gap: 10px;
-  }
+
+ 
+
+ 
+
   .footer_content{
+    gap: 40px;
     display: flex;
     margin-top: 50px;
     align-items: center;
@@ -563,12 +576,16 @@ header {
     border: none;
     outline: none;
     margin-top: 80px;
+  
   }
-  /* Style for inputs and textareas */
-  /* Your existing CSS for the form layout */
-  /* Style for inputs and textareas */
+  .form-row-btn{
+display: flex;
+justify-content: end;
+  }
+
   input[type="text"],
   textarea {
+    color: #ffffff7e;
   width: 100%;
   padding: 5px;
   border: none;
@@ -576,7 +593,7 @@ header {
   background-color: rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid #ccc;
   }
-  /* Reset placeholder styles for visibility */
+
   input[type="text"]::placeholder,
   textarea::placeholder {
   color: inherit;
@@ -593,6 +610,7 @@ header {
     border: none;
     outline: none;
     margin-top: 80px;
+    cursor: pointer;
   }
   .message_btn:hover {
     color:black;
@@ -604,13 +622,38 @@ header {
   justify-content: space-between;
   margin-bottom: 10px;
   }
+
+ 
   .column {
   flex: 1;
-  margin-right: 10px;
+  margin-right: 30px;
   }
   .registration-form{
     margin-top: 100px;
   }
+  .bottom_white_content{
+   display: flex;
+   justify-content: space-around;
+   color: grey;
+   gap: 20vw;
+  }
+.reg_form{
+  width: 100%;
+}
+.bottom_white{
+  display: flex;
+  height: 98px;
+  background-color: rgb(255, 255, 255);
+/* position: absolute; */
+
+justify-content: space-around;
+align-items: center;
+
+}
+.developed{
+  color: inherit;
+  text-decoration: none;
+}
   /*------------------------------*/
 @media (max-width: 754px) {
   .up_slider_control{
@@ -653,7 +696,7 @@ header {
   }
 
   .carousel2 {
-    width: 60%; /*25%mobil*/
+    width: 80%; 
     height: 196px;
     margin: auto;
     position: relative;
@@ -662,12 +705,12 @@ header {
 
   .slider2 img {
     width: 481px;
-    height: 196px;
+    height: 224px;
 }
 
 .navbar {
   position: absolute;
-  right: -85px;
+  right: 160px;
   top: 80px; 
   width: 0;
   height: 670px;
@@ -699,27 +742,26 @@ header {
   text-decoration: none;
   color: inherit;
 }
-
 .services_tiles {
-  /* margin-top: 50px;
-  display: grid; */
+  margin-top: 50px;
+  display: grid; 
   grid-template-columns: repeat(1, 1fr);
 
 }
-.services_img {
-  background-image: url(./img/our-services__item\ .png);
+ .services_img {
+  background-image: url(./img/our-services__item.png);
   background-repeat: no-repeat;
   height: 360px;
   width: 592px;
 }
-.services_img:hover {
+.services_img :hover {
   cursor: pointer;
-  background-image: url(./img/our-services__item_blue.png);
+ background-image: url(./img/our-servicesGigBlue.png);
   background-repeat: no-repeat;
   height: 360px;
   width: 592px;
+  position: absolute;
 }
-
 .about_main{
   display: flex;
   flex-direction: column;
@@ -732,7 +774,6 @@ header {
   margin-left: 0;
 }
 .about_cell {
- 
   height: 120px;
   width: 100%;
   padding: 30px;
@@ -748,19 +789,44 @@ header {
 .clients_txt h2 {
   font-family: 'Merriweather',sans-serif;
   font-size: 48px;
-  text-align: center;
+
 }
 .about {
   display: block;
   margin-block: 100px;
- 
 }
 .container_clients {
   display: none;
 }
+.clients {
+  padding-top: 45px;
+  height: 630px;
+}
+.footer{
+  margin-top: 80px;
+}
+.footer_content{
+  flex-direction: column;
+}
+.contact_ditales{
+  display: flex;
+}
+.bottom_white{
+height: 98px;
+
+/* position: absolute; */
+
+}
+nav{
+  width: 85vw;
+}
 }
 
-
+.test{
+  border: 4px solid rgb(30, 38, 255);
+  /* width: 100vw; ?????*/
+  height:50px ;
+}
 
 
 
