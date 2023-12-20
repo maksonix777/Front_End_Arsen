@@ -1,0 +1,34 @@
+.main {
+    
+    width: 1140px;
+    padding-top: 126px;
+    gap: 50px;
+   
+    display: flex;
+    /* 42.552px */;
+    margin: 0 auto;
+}
+.title{
+    width: 610px;
+    height: 90px;
+    color: #22356F;
+    font-family: "ABeeZee",sans-serif;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 300;
+    /* line-height: 177.3%;  */
+}
+p{
+    font-size: 24px;
+    line-height: 177.3%;
+}
+.img{
+ 
+width:543px ;
+height:533px ;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}

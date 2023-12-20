@@ -1,0 +1,43 @@
+.header{
+    
+  width: 1140px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  padding-top: 17px ;
+
+}
+.btn{
+   
+    letter-spacing: 1px;
+    font-family: 'ABeeZee'serif;
+    font-style: italic;
+}
+
+.img{
+width: 40px;
+height: 40px;
+}
+.menu_btn{
+ display: flex;
+ list-style: none;
+ gap: 68px;
+ cursor: pointer;
+}
+button{
+letter-spacing: 1px;
+ font-family: 'ABeeZee'serif;
+ font-style: italic;
+ font-size: 14px;
+padding: 10px 10px;
+background: #F9B640;
+border-radius: 50px;
+width: 150px;
+height: 50px;
+border: 0px;
+color:#FFF;
+
+
+}

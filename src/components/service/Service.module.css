@@ -1,0 +1,15 @@
+.main{
+    display: flex;
+    gap: 67px;
+}
+img{
+height: 637px;
+width:  800px;
+}
+.title
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}

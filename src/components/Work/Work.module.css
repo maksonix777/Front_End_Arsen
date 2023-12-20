@@ -1,0 +1,21 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+   
+    padding-left: 70px;
+}
+h2{
+    color: white;
+    font-size: 32px;
+    padding-top: 32px;
+    font-weight: 100;
+    font-family: 'ABeeZee'serif;
+ font-style: italic;
+ max-width: 264px;
+
+}
+.deco{
+    width: 340px;
+    height: 96px;
+border-bottom: 1px solid white;
+}
